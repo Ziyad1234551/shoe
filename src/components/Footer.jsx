@@ -38,7 +38,7 @@ export const Footer = () => {
     </div>
 
     <div className="text-center my-6">
-      <p>&copy; 2024 Your Book Store. All rights reserved.</p>
+      <p>&copy; 2024 Your Shoe Store. All rights reserved.</p>
     </div>
   </footer>  )
 }

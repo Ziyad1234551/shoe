@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div className='max-w-[1328px] px-2 my-[60px] mx-auto flex lg:flex-row md:flex-row flex-col justify-between'>
+    <div data-aos="fade-left" className='max-w-[1328px] px-2 my-[60px] mx-auto flex lg:flex-row md:flex-row flex-col justify-between'>
         <div>
             <h1 className='lg:text-[50px] text-3xl text-blue-700 font-bold'>We Sell Shoes From <br /> Various Country</h1>
             <p className='lg:w-[600px] w-[300px]  leading-9 my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laudantium nobis officiis iste ab nemo quasi, quia reprehenderit provident voluptates saepe sapiente veritatis recusandae quaerat. Eius praesentium eveniet veniam veritatis, laboriosam quidem voluptatibus.</p>

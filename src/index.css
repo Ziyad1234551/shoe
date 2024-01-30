@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body{
+    @apply font-sans
+  }
+}
+
+@media screen and (max-width:959px){
+
+}
+@media screen and (max-width:640px){
+  /*your css classes*/
+}
+@media screen and (max-width:320px){
+  /*your css classes*/
+}

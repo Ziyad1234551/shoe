@@ -40,7 +40,7 @@ export const Testimoni = () => {
     },
   ]
   return (
-    <div data-aos="fade-left" className='lg:w-[1328px] px- my-[100px] mx-auto overflow-hidden '>
+    <div data-aos="fade-bottom" className='lg:w-[1328px] px- my-[100px] mx-auto overflow-hidden '>
         <h1 className='capitalize font-bold lg:max-w-[600px] lg:mx-auto text-blue-700 text-center text-2xl lg:text-5xl max-w-[300px] mx-auto'>What Our Customer  Say About Us</h1>
         <Swiper
         spaceBetween={30}

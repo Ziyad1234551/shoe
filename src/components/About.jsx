@@ -2,7 +2,7 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <div data-aos="fade-right" className='max-w-[1328px] my-[60px] mx-auto lg:flex-row md:flex-row flex-col flex justify-between'>
+    <div data-aos="fade-bottom" className='max-w-[1328px] my-[60px] mx-auto lg:flex-row md:flex-row flex-col flex justify-between'>
     <div>
         <img src="sepatu/nike-adapt-bb-smart.png" className='lg:w-[500px] w-[300px] transition-all hover:-rotate-12 cursor-pointer' alt="" />
     </div>

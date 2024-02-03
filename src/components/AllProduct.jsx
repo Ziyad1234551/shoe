@@ -57,7 +57,7 @@ export const AllProduct = () => {
         },
     ]
   return (
-    <div data-aos="zoom-in" className='lg:w-[1328px] my-[100px] mx-auto'>
+    <div data-aos="zoom-in" name="product" className='lg:w-[1328px] my-[100px] mx-auto'>
         <h1 className='text-blue-700 font-bold  my-4 lg:my-10 text-center md:text-4xl md:my-5 text-3xl lg:text-5xl'>All Products</h1>
         <div className="grid lg:grid-cols-3 md:grid-cols-3 px-10  gap-10 justify-center items-center">
             {products.map((product)=>{

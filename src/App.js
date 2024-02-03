@@ -45,8 +45,8 @@ function App() {
 :
 <div className="lg:hidden transition-all md:hidden absolute top-0 left-0 h-[100vh] w-[0px] overflow-hidden bg-blue-600 text-white flex flex-col gap-6 t font-semibold px-0 text-2xl">
 <NavLink>Home</NavLink>
-<NavLink>About</NavLink>
-<NavLink>Contact</NavLink>
+<ScrollLink to="about">About</ScrollLink>
+<ScrollLink to="product">Product</ScrollLink>
 <NavLink>Login</NavLink>
 
 </div>

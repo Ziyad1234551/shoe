@@ -2,6 +2,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import './App.css';
 import { About } from './components/About';
 import { AllProduct } from './components/AllProduct';
@@ -35,8 +36,8 @@ function App() {
   {nav ?
   <div className="lg:hidden z-10 transition-all md:hidden absolute overflow-hidden top-0 left-0 h-[100vh] w-[250px] bg-blue-600 text-white flex flex-col gap-6 t font-semibold px-4 text-2xl">
 <NavLink>Home</NavLink>
-<NavLink>About</NavLink>
-<NavLink>Contact</NavLink>
+<ScrollLink to="about">About</ScrollLink>
+<ScrollLink to="product">Product</ScrollLink>
 <NavLink>Login</NavLink>
 
 </div>
